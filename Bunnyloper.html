@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Robunny Project</title>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <Style>
+      * {
+        margin: 0;
+        padding: 0;
+        font-family: 'Inter', sans-serif;
+      }
+      .line-1,
+      .main-header {
+        display: block;
+        background-color: rgb(63, 63, 255);
+        color: white;
+      }
+      .line-1 {
+        display: flex;
+        justify-content: center;
+      }
+      .line-1 .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        max-width: 990px;
+        width: 100%;
+        padding-top: 15px;
+        padding-right: 40px;
+        padding-left: 40px;
+      }
+      .nav-bar {
+        list-style-type: none;
+        font-size: 13px;
+        padding-left: 70px;
+      }
+      .nav-bar li {
+        float: left;
+      }
+      .nav-bar li a {
+        display: inline-block;
+        padding: 8px;
+        background-color: rgb(63, 63, 255);
+        color: white;
+        text-align: center;
+        padding: 14px;
+        text-decoration: none;
+      } 
+      .main-header .container {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        max-width: 1098px;
+        padding-right: 40px;
+        padding-left: 40px;
+      }
+      .main-header {
+        display: flex;
+        justify-content: center;
+      }
+      .header-title {
+        font-size: 20px;
+      }
+
+      .header-img img {
+        max-width: 400px;
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-bottom: 50px;
+      }
+      .info {
+        font-size: 14px;
+        width: 550px;
+        margin-top: 25px;
+        margin-bottom: 25px;
+      }
+      .gstarted-button {
+        text-transform: uppercase;
+        color:rgb(50, 50, 218);
+        background-color: white;
+        font-size: 12px;
+        font-weight: bold;
+        padding-left: 13px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-right: 13px;
+        border: none;
+        margin-right: 10px;
+        letter-spacing: 2px;
+        cursor: pointer;
+      }
+      .watch {
+        color: white;
+        text-decoration: none;
+        font-size: 14px;
+      }
+      
+      .line-2,
+      .container2 {
+        display: block;
+        background-color: white;
+        display: flex;
+        justify-content: center;
+      }
+
+      .line-2 {
+        padding-left: 20px;
+        padding-top: 40px;
+      }
+      .logo-2 {
+        max-width: 400px;
+        width: 100%;
+        margin-top: 40px;
+        margin-left: 20px;
+        margin-bottom: 50px;
+      }
+      .story {
+        padding-left: 40px;
+        font-weight: bold;
+        padding-bottom: 18px;
+        padding-top: 50px;
+      }
+      .header-2 {
+        padding-left: 40px;
+        padding-bottom: 30px;
+        font-size: 19px;
+        width: 400px;
+      }
+      .tabs {
+        list-style-type: none;
+        font-size: 12px;
+        display: inline-block;
+        margin-bottom: 22px;
+        margin-left: 40px;
+        padding-right: 130px;
+        background-color: #efefef;
+   
+      }
+      .tabs li {
+        float: left;
+      }
+      .tabs li a {
+        display: inline-block;
+        padding: 8px;
+        background-color: white;
+        color: black;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        margin: 10px;
+      }
+      .p-box {
+        padding-left: 40px;;
+      }
+      .p1, .p2 {
+        font-size: 13px;
+        color: rgb(92, 88, 88);
+        width: 470px;
+        line-height: 20px;
+      }
+ 
+    </Style>
+  </head>
+  <body>
+    <div class="line-1">
+      <div class="container">
+        <img class="logo" src="logos/blogo.png">
+        <ul class="nav-bar">
+          <li><a href="home.asp">Home</a></li>
+          <li><a href="services.asp">Services</a></li>
+          <li><a href="portfolio.asp">Portfolio</a></li>
+          <li><a href="pricing.asp">Pricing</a></li>
+          <li><a href="team.asp">Team</a></li>
+          <li><a href="contact.asp">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="main-header">
+      <div class="container">
+        <div class="header-title">
+          <h1>Rovena Ilao's First Project</h1>
+          <p class="info">
+            We are a digital agency that helps brands to achieve their
+            business outcomes. We see technology as a tool to create amazing things.
+          </p>
+          <button class="gstarted-button">
+            get started
+          </button>
+          <a class="watch" href="#">&#9654;   Watch Intro</a>
+        </div>
+        <div class="header-img">
+          <img src="logos/blogg.jpg"/>
+        </div>
+      </div>
+    </div>
+
+    <div class="line-2">
+      <div class="container2">
+        <img class="logo-2" src="logos/blogg2.jpg">
+      </div>
+      <div>
+        <p class="story">
+          &mdash; OUR STORY
+        </p>
+        <div class="header-2">
+        <h2>
+          Our team comes with the experience
+          and knowledge
+        </h2>
+      </div>
+        <ul class="tabs">
+          <li><a href="who.asp">Who We Are</a></li>
+          <li><a href="vision.asp">Our Vision</a></li>
+          <li><a href="history.asp">Our History</a></li>
+        </ul>
+        <div class="p-box">
+        <p class="p1">
+          It is a long established fact that a reader will
+          be distracted by the readable content of a page when
+          looking at its layout. The point of using Lorem Ipsum
+          Is that it has a more-or-less normal distribution of letters,
+          look like readable English.
+        </p>
+        <p class="p2">
+          There are many variations of passages of Lorem Ipsum available, 
+          but the majority have in some form, by injected humour.
+        </p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
